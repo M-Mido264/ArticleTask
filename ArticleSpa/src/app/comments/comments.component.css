@@ -1,0 +1,16 @@
+.form-control{
+    width: 350px;
+    margin-top: 20px;
+}
+.card{
+    width: 300px;
+    background-color: ghostwhite;
+    margin-left: 10px;
+    height: 60px;
+}
+p{
+    margin-left: 10px;;
+}
+.btn{
+  width: 100px;
+}

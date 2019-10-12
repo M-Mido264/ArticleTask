@@ -1,0 +1,18 @@
+<div class="contain">
+  <h5>{{comments?.content}}</h5>
+  <p>Comments:</p>
+  
+  <div class="card" *ngFor="let c of comments?.comments">
+    <div class="card-body">
+      {{c.commentContent}}
+    </div>
+  </div>
+
+  <form #form='ngForm' (ngSubmit)="addComment()">
+    <div class="form-group">
+      <input type="text" class="form-control" placeholder="Enter Comment..." [(ngModel)]="comment" name="comment"
+        required />
+    </div>
+    <button type="submit" class="btn btn-primary" [disabled]="form.invalid">Add</button>
+  </form>
+</div>

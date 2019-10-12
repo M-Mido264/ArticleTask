@@ -1,0 +1,11 @@
+.form-control{
+    width: 350px;
+}
+a{
+    text-decoration: none;
+}
+a.newArticle:hover {
+    color: rgb(0, 26, 255);
+    font-size: 15px;
+  }
+  
